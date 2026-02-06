@@ -2,7 +2,7 @@
 
 ProductLens is a Google Lens–style AI application that detects objects in images and provides context-aware, realistic answers using a combination of computer vision, embeddings, and large language models (LLMs).
 
-Features
+<h2>Features</h2>
 
 Zero-shot object detection using SAM (Segment Anything Model).
 
@@ -16,7 +16,7 @@ FastAPI backend API for image uploads and inference.
 
 Optional Streamlit frontend for quick testing and visualization.
 
-Tech Stack
+<h2>Tech Stack</h2>
 
 Computer Vision: PyTorch, SAM, DINOv2, PIL, OpenCV
 
@@ -25,7 +25,3 @@ NLP & LLM: LangChain, GPT4All (or other open-source LLMs)
 Vector Database: FAISS for retrieval
 
 Backend: FastAPI, Python 3.10+
-
-Frontend (optional): Streamlit for quick prototyping
-
-Other Tools: Docker, CUDA (GPU support), pickle caching
